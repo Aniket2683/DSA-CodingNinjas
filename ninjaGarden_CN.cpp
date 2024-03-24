@@ -47,7 +47,7 @@ int ninjaGarden(vector<int> &flowers, int n, int k)
     int right = k + 1;
     int ans = n + 1;
 
-    for (int i = 0; right < n; i++)
+    for(int i = 0; right < n; i++)
     {
         if (DayOfBloom[i] < DayOfBloom[left] || DayOfBloom[i] <= DayOfBloom[right])
         {
